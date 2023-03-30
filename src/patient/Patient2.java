@@ -9,20 +9,20 @@ package patient;
  * @author Master
  */
 public class Patient2 {
-    private String name;
+    private String abcd;
 
     // Constructor with name parameter
-    public Patient2(String name) {
-        if ("".equals(name) ) {
-            this.name = "Unknown";
+    public Patient2(String abcd) {
+        if ("".equals(abcd) ) {
+            this.abcd = "Unknown";
         } else {
-            this.name = name;
+            this.abcd = abcd;
         }
     }
 
     // Method to print patient name
     public void printName() {
-        System.out.println("Patient Name: " + name);
+        System.out.println("Patient Name: " + abcd);
     }
 public static void main(String[] args) {
         // Create patient objects with and without name parameter
