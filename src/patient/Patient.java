@@ -5,7 +5,7 @@
 package patient;
 
 /**
- * 
+ * FAizan Sheikh
  * @author Master
  */
 public class Patient {
